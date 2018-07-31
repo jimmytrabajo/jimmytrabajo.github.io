@@ -1,0 +1,253 @@
+#principal{
+	width: 900px;
+	height: auto; vertical-align: bottom;
+	border: 1px solid #000;
+	margin: auto;
+}
+
+header{
+    display: inline
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+}
+
+#logo{
+	width: 900px;
+	height: 20px;
+	border: 0px solid #000;
+	float: left; font-family: sans-serif;
+}
+
+.titulo{
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+.sub-titulo{
+	font-size: 14px;
+	margin-top: -20px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#heder{
+    width: 560px;
+	height: 50px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-top: 40px;
+	background: #006699;
+    font-family: arial,helvitica,sans-serif;
+}
+.menu{
+	width: 620px;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 40px;
+	background: #006699;
+
+}
+.menu li a{
+    background-color: #006699;
+    color: azure;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.menu li a:hover{
+    background-color: antiquewhite;
+}
+.menu> li{
+    float: left;
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover> ul{
+    display: block;
+} li ul li{
+    position: relative;
+}
+
+#slide{
+	margin-top: -5px;
+	width: 800px;
+	height: 350px;
+}
+
+
+#categorias{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 1px solid;
+	margin-top: 10px;
+}
+
+.uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+
+.parrafo{
+	color: #707070;
+	text-align: justify;
+}
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+
+.uno ul{}
+
+.uno ul li{
+	list-style: none;
+	float: inherit;
+}
+
+.uno ul li a{
+	text-decoration: none;
+	padding: 7px 10px;
+	border: 1px solid green;
+	color: blue; 
+}
+.leer-mas{
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+
+.leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px; color: 
+}
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 7px; color: #4682b4;
+}
+
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+	color: 
+}
+
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+
+#footer p{
+	width: 500px;
+}
+/*------------contacto------------------------*/
+#formulario{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: left
+}
+
+input[type="text"]{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+textarea{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+#form{}
+
+#datos{
+	margin-top: 30px;
+}
+.imagen ul{}
+
+.imagen ul li{
+	list-style: none;
+	float: right;
+}
+
+.imagen ul li a{
+	text-decoration: none;
+	padding: 7px 35px;
+	border: 1px solid firebrick;
+	color: darkgreen; 
+}
+
+.imagen ul li a:hover{
+	background: green;
+	color: royalblue;
+	transition: red 1s, color 1s;
+
+}
+.imagenes1{}
+
+.imagenes1 ul li{
+    list-style: none;
+    float: left;
+  
+}
+.imagenes1{
+    position: relative;
+    top: 10px;
+    width: 90%;
+    height: 250px;
+    background: green;
+}
+.imgenes1.list-image li{
+    margin: 5px;
+    margin-bottom: 5px;
+} 
+.imagenes1.list-image li image{
+    position: relative;
+    width: 250px;
+    height: 150px,
+}
+video{
+    width: 300px;
+    height: 220px;
+   
+}
+
+
+/* transporte ============*/
+    
+  
